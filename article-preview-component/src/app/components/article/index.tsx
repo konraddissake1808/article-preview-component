@@ -3,7 +3,7 @@ import ProductImage from './_components/_image'
 
 function Article() {
   return (
-    <div className='w-11/12 h-[540px]'>
+    <div className='w-11/12 h-[500px] bg-white'>
         <ProductImage />
         <p>article</p>
     </div>

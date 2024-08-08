@@ -4,8 +4,8 @@ import drawerImage from '../../../../../../public/drawers.jpg'
 
 function ProductImage() {
   return (
-    <div>
-        <Image src={drawerImage} alt=''/>
+    <div className='h-[190px] overflow-hidden rounded-t-md'>
+        <Image src={drawerImage} className='bg-cover bg-center' alt=''/>
     </div>
   )
 }
