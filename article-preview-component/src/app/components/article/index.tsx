@@ -4,7 +4,7 @@ import Description from './_components/_description'
 
 function Article() {
   return (
-    <div className='w-11/12 h-[500px] bg-white'>
+    <div className='w-11/12 h-[490px] bg-white'>
         <ProductImage />
         <Description />
     </div>
