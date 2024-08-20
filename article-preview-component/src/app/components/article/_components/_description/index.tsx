@@ -2,7 +2,7 @@ import React from 'react'
 
 function Description() {
   return (
-    <div className='w-full h-[240px] flex justify-center'>
+    <div className='w-full h-[221px] flex justify-center'>
         <div className='w-10/12 h-full flex justify-start flex-col'>
             <div>
                 <p className='text-[15px] font-bold font-sans mt-10 mb-4 text-very-dark-grayish-blue'>Shift the overall look and feel by adding these wonderful touches to furniture in your home</p>
