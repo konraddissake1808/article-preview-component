@@ -5,7 +5,7 @@ import AuthorAndShare from './_components/_author'
 
 function Article() {
   return (
-    <div className='w-11/12 h-[490px] bg-white'>
+    <div className='w-11/12 h-[490px] bg-white rounded-md'>
         <ProductImage />
         <Description />
         <AuthorAndShare />
