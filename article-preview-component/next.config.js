@@ -28,4 +28,7 @@ module.exports = {
   },
 
   // ...other config
+  compiler: {
+    styledComponents: true,
+  },
 }
