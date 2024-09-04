@@ -25,3 +25,11 @@ body {
     text-wrap: balance;
   }
 }
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #48556a;
+}
