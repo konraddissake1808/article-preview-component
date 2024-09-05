@@ -3,22 +3,8 @@ import React from 'react'
 import Image from 'next/image'
 import avatarMichelle from '../../../../../../public/avatar-michelle.jpg'
 import ShareButton from './_compenent/_shareButton';
-/*import ShareButtonDark from './_compenent/_shareButtonDark'
-import Facebook from './_compenent/_facebookLink'
-import Twitter from './_compenent/_twitterLink'
-import Pinterest from './_compenent/_pinterestLink'*/
 import SharePanel from './_compenent/_sharePanel'
-
-
-function activeState() {
-  if (window.screen.width > 767) {
-    document.getElementById('sharePanel')?.classList.toggle('-translate-y-[132px]');
-    document.getElementById('sharePanel')?.classList.toggle('lg:opacity-0');
-  }
-  else {
-    document.getElementById('sharePanel')?.classList.toggle('-translate-y-[79px]');
-  }
-}
+import { activeState } from './_compenent/_sharePanel';
 
 
 function AuthorAndShare() {

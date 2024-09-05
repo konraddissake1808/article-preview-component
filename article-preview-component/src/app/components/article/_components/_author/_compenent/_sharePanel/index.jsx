@@ -4,11 +4,9 @@ import Twitter from '../_twitterLink'
 import Pinterest from '../_pinterestLink'
 import ShareButtonDark from '../_shareButtonDark'
 
-function activeState() {
-  let screenWidth = window.screen.width;
-  console.log(screenWidth);
+export function activeState() {
   if (window.screen.width > 767) {
-    document.getElementById('sharePanel')?.classList.toggle('-translate-y-[114px]');
+    document.getElementById('sharePanel')?.classList.toggle('-translate-y-[132px]');
     document.getElementById('sharePanel')?.classList.toggle('lg:opacity-0');
   }
   else {
